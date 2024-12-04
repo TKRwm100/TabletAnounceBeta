@@ -1,0 +1,1253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SoundList>
+    <settings>
+        <area name="東花園"/>
+        <area name="東生駒"/>
+        <area name="西大寺"/>
+        <area name="新田辺"/>
+        <area name="高安"/>
+        <area name="名張"/>
+        <area name="古市"/>
+        <area name="六田"/>
+        <area name="富吉"/>
+        <area name="塩浜"/>
+        <area name="白塚"/>
+        <area name="五十鈴川"/>
+
+        <type name="特急"/>
+        <type name="快速急行"/>
+        <type name="区間快速"/>
+        <type name="急行"/>
+        <type name="区間急行"/>
+        <type name="準急"/>
+        <type name="区間準急"/>
+        <type name="各停"/>
+        <type name="特急回送"/>
+        <type name="回送"/>
+        <type name="鮮魚"/>
+        <type name="ワンマン"/>
+
+        <group name="列車運行に関する案内"/>
+        <group name="マナー啓発放送"/>
+        <group name="案内放送"/>
+        <group name="英音中「空」案内"/>
+    </settings>
+    <mainanounce id="E2001" area="五十鈴川 塩浜 富吉 白塚" type="特急" direction="上り" group="A" title="特急(大嘘)　鳥羽発　名古屋行" trainnumber="537 636 3636">
+        <station name="東松阪" pass="true"/>
+        <station name="松阪">
+            <partsgroup state="stopping">
+                <parts path="../sounds/JP近鉄をご利用いただきありがとうございます.wav" langage="JP" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/JPこの電車は名古屋行き急行です.wav" langage="JP" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/JP途中、伊勢中川、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります.wav" langage="JP" PartsText="途中、伊勢中川、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります。"/>
+                <parts path="../sounds/JP発車までしばらくお待ちください.wav" langage="JP" PartsText="発車までしばらくお待ちください。"/>
+                <parts path="../sounds/EN近鉄をご利用いただきありがとうございます.wav" langage="EN" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/ENこの電車は名古屋行き急行です.wav" langage="EN" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/EN途中、伊勢中川、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります.wav" langage="EN" PartsText="途中、伊勢中川、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります。"/>
+                <parts path="../sounds/CH近鉄をご利用いただきありがとうございます.wav" langage="CH" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/CHこの電車は名古屋行き急行です.wav" langage="CH" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/KR近鉄をご利用いただきありがとうございます.wav" langage="KR" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/KRこの電車は名古屋行き急行です.wav" langage="KR" PartsText="この電車は名古屋行き急行です。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JPお待たせしました.wav" langage="JP" PartsText="お待たせしました。"/>
+                <parts path="../sounds/JP近鉄をご利用いただきありがとうございます.wav" langage="JP" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/JPこの電車は名古屋行き急行です.wav" langage="JP" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/JP途中、伊勢中川、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります.wav" langage="JP" PartsText="途中、伊勢中川、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります。"/>
+                <parts path="../sounds/JP次は伊勢中川、中川です.wav" langage="JP" PartsText="次は伊勢中川、中川です。"/>
+                <parts path="../sounds/JP大阪、奈良、京都方面はお乗り換えです.wav" langage="JP" PartsText="大阪、奈良、京都方面はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JP伊勢中川の次は久居に停まります.wav" langage="JP" PartsText="伊勢中川の次は久居に停まります。"/>
+                <parts path="../sounds/EN近鉄をご利用いただきありがとうございます.wav" langage="EN" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/ENこの電車は名古屋行き急行です.wav" langage="EN" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/EN途中、伊勢中川、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります.wav" langage="EN" PartsText="途中、伊勢中川、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります。"/>
+                <parts path="../sounds/EN次は伊勢中川、中川です.wav" langage="EN" PartsText="次は伊勢中川、中川です。"/>
+                <parts path="../sounds/EN駅ナンバリングM-61伊勢中川(山田線).wav" langage="EN" PartsText="駅ナンバー　M-61伊勢中川（山田線）"/>
+                <parts path="../sounds/EN大阪、奈良、京都方面はお乗り換えです.wav" langage="EN" PartsText="大阪、奈良、京都方面はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/EN伊勢中川の次は久居に停まります.wav" langage="EN" PartsText="伊勢中川の次は久居に停まります。"/>
+                <parts path="../sounds/CH近鉄をご利用いただきありがとうございます.wav" langage="CH" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/CHこの電車は名古屋行き急行です.wav" langage="CH" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/CH次は伊勢中川、中川です.wav" langage="CH" PartsText="次は伊勢中川、中川です。"/>
+                <parts path="../sounds/CH大阪、奈良、京都方面はお乗り換えです.wav" langage="CH" PartsText="大阪、奈良、京都方面はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/KR近鉄をご利用いただきありがとうございます.wav" langage="KR" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/KRこの電車は名古屋行き急行です.wav" langage="KR" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/KR次は伊勢中川、中川です.wav" langage="KR" PartsText="次は伊勢中川、中川です。"/>
+                <parts path="../sounds/KR大阪、奈良、京都方面はお乗り換えです.wav" langage="KR" PartsText="大阪、奈良、京都方面はお乗り換えです。" changefor="true"/>
+            </partsgroup>
+        </station>
+        <station name="松ヶ崎" pass="true"/>
+        <station name="伊勢中原" pass="true"/>
+        <station name="伊勢中川">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JPご乗車ありがとうございました.wav" langage="JP" PartsText="ご乗車ありがとうございました。"/>
+                <parts path="../sounds/JP伊勢中川、中川です.wav" langage="JP" PartsText="伊勢中川、中川です。"/>
+                <parts path="../sounds/JP大阪、奈良、京都方面はお乗り換えです.wav" langage="JP" PartsText="大阪、奈良、京都方面はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JP伊勢中川の次は久居に停まります.wav" langage="JP" PartsText="伊勢中川の次は久居に停まります。"/>
+                <parts path="../sounds/JP近鉄をご利用いただきありがとうございました.wav" langage="JP" PartsText="近鉄をご利用いただきありがとうございました。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JPお待たせしました.wav" langage="JP" PartsText="お待たせしました。"/>
+                <parts path="../sounds/JP近鉄をご利用いただきありがとうございます.wav" langage="JP" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/JPこの電車は名古屋行き急行です.wav" langage="JP" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/JP途中、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります.wav" langage="JP" PartsText="途中、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります。"/>
+                <parts path="../sounds/JP次は久居、久居です.wav" langage="JP" PartsText="次は久居、久居です。"/>
+                <parts path="../sounds/JP久居の次は津新町に停まります.wav" langage="JP" PartsText="久居の次は津新町に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="桃園" pass="true"/>
+        <station name="久居">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP久居、久居です.wav" langage="JP" PartsText="久居、久居です。"/>
+                <parts path="../sounds/JP左側の扉が開きます。ご注意ください.wav" langage="JP" PartsText="左側の扉が開きます。ご注意ください。"/>
+                <parts path="../sounds/JP久居の次は津新町に停まります.wav" langage="JP" PartsText="久居の次は津新町に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は津新町、津新町です.wav" langage="JP" PartsText="次は津新町、津新町です。"/>
+                <parts path="../sounds/JP津新町の次は津に停まります.wav" langage="JP" PartsText="津新町の次は津に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="南が丘" pass="true"/>
+        <station name="津新町">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP津新町、津新町です.wav" langage="JP" PartsText="津新町、津新町です。"/>
+                <parts path="../sounds/JP右側の扉が開きます。ご注意ください.wav" langage="JP" PartsText="右側の扉が開きます。ご注意ください。"/>
+                <parts path="../sounds/JP津新町の次は津に停まります.wav" langage="JP" PartsText="津新町の次は津に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は津、津です.wav" langage="JP" PartsText="次は津、津です。"/>
+                <parts path="../sounds/JP津の次は江戸橋に停まります.wav" langage="JP" PartsText="津の次は江戸橋に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="津">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP津、津です.wav" langage="JP" PartsText="津、津です。"/>
+                <parts path="../sounds/JP右側の扉が開きます。ご注意ください.wav" langage="JP" PartsText="右側の扉が開きます。ご注意ください。"/>
+                <parts path="../sounds/JP津の次は江戸橋に停まります.wav" langage="JP" PartsText="津の次は江戸橋に停まります。"/>
+                <parts path="../sounds/JP近鉄をご利用いただきありがとうございました.wav" langage="JP" PartsText="近鉄をご利用いただきありがとうございました。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は江戸橋、江戸橋です.wav" langage="JP" PartsText="次は江戸橋、江戸橋です。"/>
+                <parts path="../sounds/JP江戸橋の次は白子に停まります.wav" langage="JP" PartsText="江戸橋の次は白子に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="江戸橋">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP江戸橋、江戸橋です.wav" langage="JP" PartsText="江戸橋、江戸橋です。"/>
+                <parts path="../sounds/JP江戸橋の次は白子に停まります.wav" langage="JP" PartsText="江戸橋の次は白子に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は白子、白子です.wav" langage="JP" PartsText="次は白子、白子です。"/>
+                <parts path="../sounds/JP白子の次は伊勢若松に停まります.wav" langage="JP" PartsText="白子の次は伊勢若松に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="高田本山" pass="true"/>
+        <station name="白塚" pass="true"/>
+        <station name="豊津上野" pass="true"/>
+        <station name="千里" pass="true"/>
+        <station name="磯山" pass="true"/>
+        <station name="鼓ヶ浦" pass="true"/>
+        <station name="白子">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP白子、白子です.wav" langage="JP" PartsText="白子、白子です。"/>
+                <parts path="../sounds/JP白子の次は伊勢若松に停まります.wav" langage="JP" PartsText="白子の次は伊勢若松に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は伊勢若松、若松です.wav" langage="JP" PartsText="次は伊勢若松、若松です。"/>
+                <parts path="../sounds/JP鈴鹿市、平田町方面はお乗り換えです.wav" langage="JP" PartsText="鈴鹿市、平田町方面はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JP伊勢若松の次は塩浜に停まります.wav" langage="JP" PartsText="伊勢若松の次は塩浜に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="千代崎" pass="true"/>
+        <station name="伊勢若松">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP伊勢若松、若松です.wav" langage="JP" PartsText="伊勢若松、若松です。"/>
+                <parts path="../sounds/JP鈴鹿市、平田町方面はお乗り換えです.wav" langage="JP" PartsText="鈴鹿市、平田町方面はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JP伊勢若松の次は塩浜に停まります.wav" langage="JP" PartsText="伊勢若松の次は塩浜に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は塩浜、塩浜です.wav" langage="JP" PartsText="次は塩浜、塩浜です。"/>
+                <parts path="../sounds/JP塩浜の次は四日市に停まります.wav" langage="JP" PartsText="塩浜の次は四日市に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="箕田" pass="true"/>
+        <station name="長太ノ浦" pass="true"/>
+        <station name="楠" pass="true"/>
+        <station name="北楠" pass="true"/>
+        <station name="塩浜">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP塩浜、塩浜です.wav" langage="JP" PartsText="塩浜、塩浜です。"/>
+                <parts path="../sounds/JP塩浜の次は四日市に停まります.wav" langage="JP" PartsText="塩浜の次は四日市に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は四日市、四日市です.wav" langage="JP" PartsText="次は四日市、四日市です。"/>
+                <parts path="../sounds/JP湯の山温泉方面と、四日市あすなろう鉄道線はお乗り換えです.wav" langage="JP" PartsText="湯の山温泉方面と、四日市あすなろう鉄道線はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JP四日市の次は富田に停まります.wav" langage="JP" PartsText="四日市の次は富田に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="海山道" pass="true"/>
+        <station name="新正" pass="true"/>
+        <station name="四日市">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JPご乗車ありがとうございました.wav" langage="JP" PartsText="ご乗車ありがとうございました。"/>
+                <parts path="../sounds/JP四日市、四日市です.wav" langage="JP" PartsText="四日市、四日市です。"/>
+                <parts path="../sounds/JP湯の山温泉方面と、四日市あすなろう鉄道線はお乗り換えです.wav" langage="JP" PartsText="湯の山温泉方面と、四日市あすなろう鉄道線はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JP四日市の次は富田に停まります.wav" langage="JP" PartsText="四日市の次は富田に停まります。"/>
+                <parts path="../sounds/JP近鉄をご利用いただきありがとうございました.wav" langage="JP" PartsText="近鉄をご利用いただきありがとうございました。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JPこの電車は名古屋行き急行です.wav" langage="JP" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/JP途中、富田、桑名、弥富、蟹江に停まります.wav" langage="JP" PartsText="途中、富田、桑名、弥富、蟹江に停まります。"/>
+                <parts path="../sounds/JP次は富田、富田です.wav" langage="JP" PartsText="次は富田、富田です。"/>
+                <parts path="../sounds/JP三岐鉄道線はお乗り換えです.wav" langage="JP" PartsText="三岐鉄道線はお乗り換えです。"/>
+                <parts path="../sounds/JP富田の次は桑名に停まります.wav" langage="JP" PartsText="富田の次は桑名に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="川原町" pass="true"/>
+        <station name="阿倉川" pass="true"/>
+        <station name="霞ヶ浦" pass="true"/>
+        <station name="富田">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP富田、富田です.wav" langage="JP" PartsText="富田、富田です。"/>
+                <parts path="../sounds/JP三岐鉄道線はお乗り換えです.wav" langage="JP" PartsText="三岐鉄道線はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JP左側の扉が開きます。ご注意ください.wav" langage="JP" PartsText="左側の扉が開きます。ご注意ください。"/>
+                <parts path="../sounds/JP富田の次は桑名に停まります.wav" langage="JP" PartsText="富田の次は桑名に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は桑名、桑名です.wav" langage="JP" PartsText="次は桑名、桑名です。"/>
+                <parts path="../sounds/JP養老鉄道線と、三岐鉄道北勢線はお乗り換えです.wav" langage="JP" PartsText="養老鉄道線と、三岐鉄道北勢線はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JP桑名の次は弥富に停まります.wav" langage="JP" PartsText="桑名の次は弥富に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="川越富洲原" pass="true"/>
+        <station name="伊勢朝日" pass="true"/>
+        <station name="益生" pass="true"/>
+        <station name="桑名">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP桑名、桑名です.wav" langage="JP" PartsText="桑名、桑名です。"/>
+                <parts path="../sounds/JP養老鉄道線と、三岐鉄道北勢線はお乗り換えです.wav" langage="JP" PartsText="養老鉄道線と、三岐鉄道北勢線はお乗り換えです。"/>
+                <parts path="../sounds/JP桑名の次は弥富に停まります.wav" langage="JP" PartsText="桑名の次は弥富に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は弥富、弥富です.wav" langage="JP" PartsText="次は弥富、弥富です。"/>
+                <parts path="../sounds/JP弥富の次は蟹江に停まります.wav" langage="JP" PartsText="弥富の次は蟹江に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="長島" pass="true"/>
+        <station name="弥富">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP弥富、弥富です.wav" langage="JP" PartsText="弥富、弥富です。"/>
+                <parts path="../sounds/JP弥富の次は蟹江に停まります.wav" langage="JP" PartsText="弥富の次は蟹江に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は蟹江、蟹江です.wav" langage="JP" PartsText="次は蟹江、蟹江です。"/>
+                <parts path="../sounds/JP蟹江の次は名古屋です.wav" langage="JP" PartsText="蟹江の次は名古屋です。"/>
+            </partsgroup>
+        </station>
+        <station name="佐古木" pass="true"/>
+        <station name="冨吉" pass="true"/>
+        <station name="蟹江">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP蟹江、蟹江です.wav" langage="JP" PartsText="蟹江、蟹江です。"/>
+                <parts path="../sounds/JP蟹江の次は名古屋です.wav" langage="JP" PartsText="蟹江の次は名古屋です。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は名古屋、名古屋です.wav" langage="JP" PartsText="次は名古屋、名古屋です。"/>
+                <parts path="../sounds/JPこの電車は次までです.wav" langage="JP" PartsText="この電車は次までです。"/>
+                <parts path="../sounds/JP名鉄線、地下鉄線、JR線、あおなみ線はお乗り換えです.wav" langage="JP" PartsText="名鉄線、地下鉄線、JR線、あおなみ線はお乗り換えです。" changefor="true"/>
+            </partsgroup>
+        </station>
+        <station name="戸田" pass="true"/>
+        <station name="伏屋" pass="true"/>
+        <station name="八田" pass="true"/>
+        <station name="烏森" pass="true"/>
+        <station name="黄金" pass="true"/>
+        <station name="米野" pass="true"/>
+        <station name="名古屋">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JPご乗車ありがとうございました.wav" langage="JP" PartsText="ご乗車ありがとうございました。"/>
+                <parts path="../sounds/JP名古屋、名古屋、終点です.wav" langage="JP" PartsText="名古屋、名古屋、終点です。"/>
+                <parts path="../sounds/JP名鉄線、地下鉄線、JR線、あおなみ線はお乗り換えです.wav" langage="JP" PartsText="名鉄線、地下鉄線、JR線、あおなみ線はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JPお忘れ物のないようご注意ください.wav" langage="JP" PartsText="お忘れ物のないようご注意ください。"/>
+                <parts path="../sounds/JP近鉄をご利用いただきありがとうございました.wav" langage="JP" PartsText="近鉄をご利用いただきありがとうございました。"/>
+            </partsgroup>
+        </station>
+    </mainanounce>
+    <mainanounce id="E2002" area="五十鈴川 塩浜 富吉 白塚" type="急行" direction="上り" group="A" title="急行　松阪発　名古屋行" trainnumber="536 636 3636">
+        <station name="松阪">
+            <partsgroup state="stopping">
+                <parts path="../sounds/JP近鉄をご利用いただきありがとうございます.wav" langage="JP" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/JPこの電車は名古屋行き急行です.wav" langage="JP" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/JP途中、伊勢中川、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります.wav" langage="JP" PartsText="途中、伊勢中川、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります。"/>
+                <parts path="../sounds/JP発車までしばらくお待ちください.wav" langage="JP" PartsText="発車までしばらくお待ちください。"/>
+                <parts path="../sounds/EN近鉄をご利用いただきありがとうございます.wav" langage="EN" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/ENこの電車は名古屋行き急行です.wav" langage="EN" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/EN途中、伊勢中川、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります.wav" langage="EN" PartsText="途中、伊勢中川、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります。"/>
+                <parts path="../sounds/CH近鉄をご利用いただきありがとうございます.wav" langage="CH" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/CHこの電車は名古屋行き急行です.wav" langage="CH" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/KR近鉄をご利用いただきありがとうございます.wav" langage="KR" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/KRこの電車は名古屋行き急行です.wav" langage="KR" PartsText="この電車は名古屋行き急行です。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JPお待たせしました.wav" langage="JP" PartsText="お待たせしました。"/>
+                <parts path="../sounds/JP近鉄をご利用いただきありがとうございます.wav" langage="JP" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/JPこの電車は名古屋行き急行です.wav" langage="JP" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/JP途中、伊勢中川、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります.wav" langage="JP" PartsText="途中、伊勢中川、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります。"/>
+                <parts path="../sounds/JP次は伊勢中川、中川です.wav" langage="JP" PartsText="次は伊勢中川、中川です。"/>
+                <parts path="../sounds/JP大阪、奈良、京都方面はお乗り換えです.wav" langage="JP" PartsText="大阪、奈良、京都方面はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JP伊勢中川の次は久居に停まります.wav" langage="JP" PartsText="伊勢中川の次は久居に停まります。"/>
+                <parts path="../sounds/EN近鉄をご利用いただきありがとうございます.wav" langage="EN" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/ENこの電車は名古屋行き急行です.wav" langage="EN" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/EN途中、伊勢中川、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります.wav" langage="EN" PartsText="途中、伊勢中川、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります。"/>
+                <parts path="../sounds/EN次は伊勢中川、中川です.wav" langage="EN" PartsText="次は伊勢中川、中川です。"/>
+                <parts path="../sounds/EN駅ナンバリングM-61伊勢中川(山田線).wav" langage="EN" PartsText="駅ナンバー　M-61伊勢中川（山田線）"/>
+                <parts path="../sounds/EN大阪、奈良、京都方面はお乗り換えです.wav" langage="EN" PartsText="大阪、奈良、京都方面はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/EN伊勢中川の次は久居に停まります.wav" langage="EN" PartsText="伊勢中川の次は久居に停まります。"/>
+                <parts path="../sounds/CH近鉄をご利用いただきありがとうございます.wav" langage="CH" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/CHこの電車は名古屋行き急行です.wav" langage="CH" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/CH次は伊勢中川、中川です.wav" langage="CH" PartsText="次は伊勢中川、中川です。"/>
+                <parts path="../sounds/CH大阪、奈良、京都方面はお乗り換えです.wav" langage="CH" PartsText="大阪、奈良、京都方面はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/KR近鉄をご利用いただきありがとうございます.wav" langage="KR" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/KRこの電車は名古屋行き急行です.wav" langage="KR" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/KR次は伊勢中川、中川です.wav" langage="KR" PartsText="次は伊勢中川、中川です。"/>
+                <parts path="../sounds/KR大阪、奈良、京都方面はお乗り換えです.wav" langage="KR" PartsText="大阪、奈良、京都方面はお乗り換えです。" changefor="true"/>
+            </partsgroup>
+        </station>
+        <station name="松ヶ崎" pass="true"/>
+        <station name="伊勢中原" pass="true"/>
+        <station name="伊勢中川">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JPご乗車ありがとうございました.wav" langage="JP" PartsText="ご乗車ありがとうございました。"/>
+                <parts path="../sounds/JP伊勢中川、中川です.wav" langage="JP" PartsText="伊勢中川、中川です。"/>
+                <parts path="../sounds/JP大阪、奈良、京都方面はお乗り換えです.wav" langage="JP" PartsText="大阪、奈良、京都方面はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JP伊勢中川の次は久居に停まります.wav" langage="JP" PartsText="伊勢中川の次は久居に停まります。"/>
+                <parts path="../sounds/JP近鉄をご利用いただきありがとうございました.wav" langage="JP" PartsText="近鉄をご利用いただきありがとうございました。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JPお待たせしました.wav" langage="JP" PartsText="お待たせしました。"/>
+                <parts path="../sounds/JP近鉄をご利用いただきありがとうございます.wav" langage="JP" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/JPこの電車は名古屋行き急行です.wav" langage="JP" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/JP途中、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります.wav" langage="JP" PartsText="途中、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります。"/>
+                <parts path="../sounds/JP次は久居、久居です.wav" langage="JP" PartsText="次は久居、久居です。"/>
+                <parts path="../sounds/JP久居の次は津新町に停まります.wav" langage="JP" PartsText="久居の次は津新町に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="桃園" pass="true"/>
+        <station name="久居">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP久居、久居です.wav" langage="JP" PartsText="久居、久居です。"/>
+                <parts path="../sounds/JP左側の扉が開きます。ご注意ください.wav" langage="JP" PartsText="左側の扉が開きます。ご注意ください。"/>
+                <parts path="../sounds/JP久居の次は津新町に停まります.wav" langage="JP" PartsText="久居の次は津新町に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は津新町、津新町です.wav" langage="JP" PartsText="次は津新町、津新町です。"/>
+                <parts path="../sounds/JP津新町の次は津に停まります.wav" langage="JP" PartsText="津新町の次は津に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="南が丘" pass="true"/>
+        <station name="津新町">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP津新町、津新町です.wav" langage="JP" PartsText="津新町、津新町です。"/>
+                <parts path="../sounds/JP右側の扉が開きます。ご注意ください.wav" langage="JP" PartsText="右側の扉が開きます。ご注意ください。"/>
+                <parts path="../sounds/JP津新町の次は津に停まります.wav" langage="JP" PartsText="津新町の次は津に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は津、津です.wav" langage="JP" PartsText="次は津、津です。"/>
+                <parts path="../sounds/JP津の次は江戸橋に停まります.wav" langage="JP" PartsText="津の次は江戸橋に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="津">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP津、津です.wav" langage="JP" PartsText="津、津です。"/>
+                <parts path="../sounds/JP右側の扉が開きます。ご注意ください.wav" langage="JP" PartsText="右側の扉が開きます。ご注意ください。"/>
+                <parts path="../sounds/JP津の次は江戸橋に停まります.wav" langage="JP" PartsText="津の次は江戸橋に停まります。"/>
+                <parts path="../sounds/JP近鉄をご利用いただきありがとうございました.wav" langage="JP" PartsText="近鉄をご利用いただきありがとうございました。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は江戸橋、江戸橋です.wav" langage="JP" PartsText="次は江戸橋、江戸橋です。"/>
+                <parts path="../sounds/JP江戸橋の次は白子に停まります.wav" langage="JP" PartsText="江戸橋の次は白子に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="江戸橋">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP江戸橋、江戸橋です.wav" langage="JP" PartsText="江戸橋、江戸橋です。"/>
+                <parts path="../sounds/JP江戸橋の次は白子に停まります.wav" langage="JP" PartsText="江戸橋の次は白子に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は白子、白子です.wav" langage="JP" PartsText="次は白子、白子です。"/>
+                <parts path="../sounds/JP白子の次は伊勢若松に停まります.wav" langage="JP" PartsText="白子の次は伊勢若松に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="高田本山" pass="true"/>
+        <station name="白塚" pass="true"/>
+        <station name="豊津上野" pass="true"/>
+        <station name="千里" pass="true"/>
+        <station name="磯山" pass="true"/>
+        <station name="鼓ヶ浦" pass="true"/>
+        <station name="白子">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP白子、白子です.wav" langage="JP" PartsText="白子、白子です。"/>
+                <parts path="../sounds/JP白子の次は伊勢若松に停まります.wav" langage="JP" PartsText="白子の次は伊勢若松に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は伊勢若松、若松です.wav" langage="JP" PartsText="次は伊勢若松、若松です。"/>
+                <parts path="../sounds/JP鈴鹿市、平田町方面はお乗り換えです.wav" langage="JP" PartsText="鈴鹿市、平田町方面はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JP伊勢若松の次は塩浜に停まります.wav" langage="JP" PartsText="伊勢若松の次は塩浜に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="千代崎" pass="true"/>
+        <station name="伊勢若松">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP伊勢若松、若松です.wav" langage="JP" PartsText="伊勢若松、若松です。"/>
+                <parts path="../sounds/JP鈴鹿市、平田町方面はお乗り換えです.wav" langage="JP" PartsText="鈴鹿市、平田町方面はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JP伊勢若松の次は塩浜に停まります.wav" langage="JP" PartsText="伊勢若松の次は塩浜に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は塩浜、塩浜です.wav" langage="JP" PartsText="次は塩浜、塩浜です。"/>
+                <parts path="../sounds/JP塩浜の次は四日市に停まります.wav" langage="JP" PartsText="塩浜の次は四日市に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="箕田" pass="true"/>
+        <station name="長太ノ浦" pass="true"/>
+        <station name="楠" pass="true"/>
+        <station name="北楠" pass="true"/>
+        <station name="塩浜">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP塩浜、塩浜です.wav" langage="JP" PartsText="塩浜、塩浜です。"/>
+                <parts path="../sounds/JP塩浜の次は四日市に停まります.wav" langage="JP" PartsText="塩浜の次は四日市に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は四日市、四日市です.wav" langage="JP" PartsText="次は四日市、四日市です。"/>
+                <parts path="../sounds/JP湯の山温泉方面と、四日市あすなろう鉄道線はお乗り換えです.wav" langage="JP" PartsText="湯の山温泉方面と、四日市あすなろう鉄道線はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JP四日市の次は富田に停まります.wav" langage="JP" PartsText="四日市の次は富田に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="海山道" pass="true"/>
+        <station name="新正" pass="true"/>
+        <station name="四日市">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JPご乗車ありがとうございました.wav" langage="JP" PartsText="ご乗車ありがとうございました。"/>
+                <parts path="../sounds/JP四日市、四日市です.wav" langage="JP" PartsText="四日市、四日市です。"/>
+                <parts path="../sounds/JP湯の山温泉方面と、四日市あすなろう鉄道線はお乗り換えです.wav" langage="JP" PartsText="湯の山温泉方面と、四日市あすなろう鉄道線はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JP四日市の次は富田に停まります.wav" langage="JP" PartsText="四日市の次は富田に停まります。"/>
+                <parts path="../sounds/JP近鉄をご利用いただきありがとうございました.wav" langage="JP" PartsText="近鉄をご利用いただきありがとうございました。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JPこの電車は名古屋行き急行です.wav" langage="JP" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/JP途中、富田、桑名、弥富、蟹江に停まります.wav" langage="JP" PartsText="途中、富田、桑名、弥富、蟹江に停まります。"/>
+                <parts path="../sounds/JP次は富田、富田です.wav" langage="JP" PartsText="次は富田、富田です。"/>
+                <parts path="../sounds/JP三岐鉄道線はお乗り換えです.wav" langage="JP" PartsText="三岐鉄道線はお乗り換えです。"/>
+                <parts path="../sounds/JP富田の次は桑名に停まります.wav" langage="JP" PartsText="富田の次は桑名に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="川原町" pass="true"/>
+        <station name="阿倉川" pass="true"/>
+        <station name="霞ヶ浦" pass="true"/>
+        <station name="富田">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP富田、富田です.wav" langage="JP" PartsText="富田、富田です。"/>
+                <parts path="../sounds/JP三岐鉄道線はお乗り換えです.wav" langage="JP" PartsText="三岐鉄道線はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JP左側の扉が開きます。ご注意ください.wav" langage="JP" PartsText="左側の扉が開きます。ご注意ください。"/>
+                <parts path="../sounds/JP富田の次は桑名に停まります.wav" langage="JP" PartsText="富田の次は桑名に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は桑名、桑名です.wav" langage="JP" PartsText="次は桑名、桑名です。"/>
+                <parts path="../sounds/JP養老鉄道線と、三岐鉄道北勢線はお乗り換えです.wav" langage="JP" PartsText="養老鉄道線と、三岐鉄道北勢線はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JP桑名の次は弥富に停まります.wav" langage="JP" PartsText="桑名の次は弥富に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="川越富洲原" pass="true"/>
+        <station name="伊勢朝日" pass="true"/>
+        <station name="益生" pass="true"/>
+        <station name="桑名">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP桑名、桑名です.wav" langage="JP" PartsText="桑名、桑名です。"/>
+                <parts path="../sounds/JP養老鉄道線と、三岐鉄道北勢線はお乗り換えです.wav" langage="JP" PartsText="養老鉄道線と、三岐鉄道北勢線はお乗り換えです。"/>
+                <parts path="../sounds/JP桑名の次は弥富に停まります.wav" langage="JP" PartsText="桑名の次は弥富に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は弥富、弥富です.wav" langage="JP" PartsText="次は弥富、弥富です。"/>
+                <parts path="../sounds/JP弥富の次は蟹江に停まります.wav" langage="JP" PartsText="弥富の次は蟹江に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="長島" pass="true"/>
+        <station name="弥富">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP弥富、弥富です.wav" langage="JP" PartsText="弥富、弥富です。"/>
+                <parts path="../sounds/JP弥富の次は蟹江に停まります.wav" langage="JP" PartsText="弥富の次は蟹江に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は蟹江、蟹江です.wav" langage="JP" PartsText="次は蟹江、蟹江です。"/>
+                <parts path="../sounds/JP蟹江の次は名古屋です.wav" langage="JP" PartsText="蟹江の次は名古屋です。"/>
+            </partsgroup>
+        </station>
+        <station name="佐古木" pass="true"/>
+        <station name="冨吉" pass="true"/>
+        <station name="蟹江">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP蟹江、蟹江です.wav" langage="JP" PartsText="蟹江、蟹江です。"/>
+                <parts path="../sounds/JP蟹江の次は名古屋です.wav" langage="JP" PartsText="蟹江の次は名古屋です。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は名古屋、名古屋です.wav" langage="JP" PartsText="次は名古屋、名古屋です。"/>
+                <parts path="../sounds/JPこの電車は次までです.wav" langage="JP" PartsText="この電車は次までです。"/>
+                <parts path="../sounds/JP名鉄線、地下鉄線、JR線、あおなみ線はお乗り換えです.wav" langage="JP" PartsText="名鉄線、地下鉄線、JR線、あおなみ線はお乗り換えです。" changefor="true"/>
+            </partsgroup>
+        </station>
+        <station name="戸田" pass="true"/>
+        <station name="伏屋" pass="true"/>
+        <station name="八田" pass="true"/>
+        <station name="烏森" pass="true"/>
+        <station name="黄金" pass="true"/>
+        <station name="米野" pass="true"/>
+        <station name="名古屋">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JPご乗車ありがとうございました.wav" langage="JP" PartsText="ご乗車ありがとうございました。"/>
+                <parts path="../sounds/JP名古屋、名古屋、終点です.wav" langage="JP" PartsText="名古屋、名古屋、終点です。"/>
+                <parts path="../sounds/JP名鉄線、地下鉄線、JR線、あおなみ線はお乗り換えです.wav" langage="JP" PartsText="名鉄線、地下鉄線、JR線、あおなみ線はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JPお忘れ物のないようご注意ください.wav" langage="JP" PartsText="お忘れ物のないようご注意ください。"/>
+                <parts path="../sounds/JP近鉄をご利用いただきありがとうございました.wav" langage="JP" PartsText="近鉄をご利用いただきありがとうございました。"/>
+            </partsgroup>
+        </station>
+    </mainanounce>
+    <mainanounce id="E2003" area="五十鈴川 塩浜 富吉 白塚" type="準急" direction="上り" group="A" title="準急　松阪発　名古屋行2" trainnumber="536 636 3636">
+        <station name="松阪">
+            <partsgroup state="stopping">
+                <parts path="../sounds/JP近鉄をご利用いただきありがとうございます.wav" langage="JP" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/JPこの電車は名古屋行き急行です.wav" langage="JP" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/JP途中、伊勢中川、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります.wav" langage="JP" PartsText="途中、伊勢中川、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります。"/>
+                <parts path="../sounds/JP発車までしばらくお待ちください.wav" langage="JP" PartsText="発車までしばらくお待ちください。"/>
+                <parts path="../sounds/EN近鉄をご利用いただきありがとうございます.wav" langage="EN" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/ENこの電車は名古屋行き急行です.wav" langage="EN" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/EN途中、伊勢中川、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります.wav" langage="EN" PartsText="途中、伊勢中川、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります。"/>
+                <parts path="../sounds/CH近鉄をご利用いただきありがとうございます.wav" langage="CH" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/CHこの電車は名古屋行き急行です.wav" langage="CH" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/KR近鉄をご利用いただきありがとうございます.wav" langage="KR" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/KRこの電車は名古屋行き急行です.wav" langage="KR" PartsText="この電車は名古屋行き急行です。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JPお待たせしました.wav" langage="JP" PartsText="お待たせしました。"/>
+                <parts path="../sounds/JP近鉄をご利用いただきありがとうございます.wav" langage="JP" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/JPこの電車は名古屋行き急行です.wav" langage="JP" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/JP途中、伊勢中川、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります.wav" langage="JP" PartsText="途中、伊勢中川、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります。"/>
+                <parts path="../sounds/JP次は伊勢中川、中川です.wav" langage="JP" PartsText="次は伊勢中川、中川です。"/>
+                <parts path="../sounds/JP大阪、奈良、京都方面はお乗り換えです.wav" langage="JP" PartsText="大阪、奈良、京都方面はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JP伊勢中川の次は久居に停まります.wav" langage="JP" PartsText="伊勢中川の次は久居に停まります。"/>
+                <parts path="../sounds/EN近鉄をご利用いただきありがとうございます.wav" langage="EN" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/ENこの電車は名古屋行き急行です.wav" langage="EN" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/EN途中、伊勢中川、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります.wav" langage="EN" PartsText="途中、伊勢中川、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります。"/>
+                <parts path="../sounds/EN次は伊勢中川、中川です.wav" langage="EN" PartsText="次は伊勢中川、中川です。"/>
+                <parts path="../sounds/EN駅ナンバリングM-61伊勢中川(山田線).wav" langage="EN" PartsText="駅ナンバー　M-61伊勢中川（山田線）"/>
+                <parts path="../sounds/EN大阪、奈良、京都方面はお乗り換えです.wav" langage="EN" PartsText="大阪、奈良、京都方面はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/EN伊勢中川の次は久居に停まります.wav" langage="EN" PartsText="伊勢中川の次は久居に停まります。"/>
+                <parts path="../sounds/CH近鉄をご利用いただきありがとうございます.wav" langage="CH" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/CHこの電車は名古屋行き急行です.wav" langage="CH" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/CH次は伊勢中川、中川です.wav" langage="CH" PartsText="次は伊勢中川、中川です。"/>
+                <parts path="../sounds/CH大阪、奈良、京都方面はお乗り換えです.wav" langage="CH" PartsText="大阪、奈良、京都方面はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/KR近鉄をご利用いただきありがとうございます.wav" langage="KR" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/KRこの電車は名古屋行き急行です.wav" langage="KR" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/KR次は伊勢中川、中川です.wav" langage="KR" PartsText="次は伊勢中川、中川です。"/>
+                <parts path="../sounds/KR大阪、奈良、京都方面はお乗り換えです.wav" langage="KR" PartsText="大阪、奈良、京都方面はお乗り換えです。" changefor="true"/>
+            </partsgroup>
+        </station>
+        <station name="松ヶ崎" pass="true"/>
+        <station name="伊勢中原" pass="true"/>
+        <station name="伊勢中川">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JPご乗車ありがとうございました.wav" langage="JP" PartsText="ご乗車ありがとうございました。"/>
+                <parts path="../sounds/JP伊勢中川、中川です.wav" langage="JP" PartsText="伊勢中川、中川です。"/>
+                <parts path="../sounds/JP大阪、奈良、京都方面はお乗り換えです.wav" langage="JP" PartsText="大阪、奈良、京都方面はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JP伊勢中川の次は久居に停まります.wav" langage="JP" PartsText="伊勢中川の次は久居に停まります。"/>
+                <parts path="../sounds/JP近鉄をご利用いただきありがとうございました.wav" langage="JP" PartsText="近鉄をご利用いただきありがとうございました。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JPお待たせしました.wav" langage="JP" PartsText="お待たせしました。"/>
+                <parts path="../sounds/JP近鉄をご利用いただきありがとうございます.wav" langage="JP" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/JPこの電車は名古屋行き急行です.wav" langage="JP" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/JP途中、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります.wav" langage="JP" PartsText="途中、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります。"/>
+                <parts path="../sounds/JP次は久居、久居です.wav" langage="JP" PartsText="次は久居、久居です。"/>
+                <parts path="../sounds/JP久居の次は津新町に停まります.wav" langage="JP" PartsText="久居の次は津新町に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="桃園" pass="true"/>
+        <station name="久居">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP久居、久居です.wav" langage="JP" PartsText="久居、久居です。"/>
+                <parts path="../sounds/JP左側の扉が開きます。ご注意ください.wav" langage="JP" PartsText="左側の扉が開きます。ご注意ください。"/>
+                <parts path="../sounds/JP久居の次は津新町に停まります.wav" langage="JP" PartsText="久居の次は津新町に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は津新町、津新町です.wav" langage="JP" PartsText="次は津新町、津新町です。"/>
+                <parts path="../sounds/JP津新町の次は津に停まります.wav" langage="JP" PartsText="津新町の次は津に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="南が丘" pass="true"/>
+        <station name="津新町">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP津新町、津新町です.wav" langage="JP" PartsText="津新町、津新町です。"/>
+                <parts path="../sounds/JP右側の扉が開きます。ご注意ください.wav" langage="JP" PartsText="右側の扉が開きます。ご注意ください。"/>
+                <parts path="../sounds/JP津新町の次は津に停まります.wav" langage="JP" PartsText="津新町の次は津に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は津、津です.wav" langage="JP" PartsText="次は津、津です。"/>
+                <parts path="../sounds/JP津の次は江戸橋に停まります.wav" langage="JP" PartsText="津の次は江戸橋に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="津">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP津、津です.wav" langage="JP" PartsText="津、津です。"/>
+                <parts path="../sounds/JP右側の扉が開きます。ご注意ください.wav" langage="JP" PartsText="右側の扉が開きます。ご注意ください。"/>
+                <parts path="../sounds/JP津の次は江戸橋に停まります.wav" langage="JP" PartsText="津の次は江戸橋に停まります。"/>
+                <parts path="../sounds/JP近鉄をご利用いただきありがとうございました.wav" langage="JP" PartsText="近鉄をご利用いただきありがとうございました。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は江戸橋、江戸橋です.wav" langage="JP" PartsText="次は江戸橋、江戸橋です。"/>
+                <parts path="../sounds/JP江戸橋の次は白子に停まります.wav" langage="JP" PartsText="江戸橋の次は白子に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="江戸橋">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP江戸橋、江戸橋です.wav" langage="JP" PartsText="江戸橋、江戸橋です。"/>
+                <parts path="../sounds/JP江戸橋の次は白子に停まります.wav" langage="JP" PartsText="江戸橋の次は白子に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は白子、白子です.wav" langage="JP" PartsText="次は白子、白子です。"/>
+                <parts path="../sounds/JP白子の次は伊勢若松に停まります.wav" langage="JP" PartsText="白子の次は伊勢若松に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="高田本山" pass="true"/>
+        <station name="白塚" pass="true"/>
+        <station name="豊津上野" pass="true"/>
+        <station name="千里" pass="true"/>
+        <station name="磯山" pass="true"/>
+        <station name="鼓ヶ浦" pass="true"/>
+        <station name="白子">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP白子、白子です.wav" langage="JP" PartsText="白子、白子です。"/>
+                <parts path="../sounds/JP白子の次は伊勢若松に停まります.wav" langage="JP" PartsText="白子の次は伊勢若松に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は伊勢若松、若松です.wav" langage="JP" PartsText="次は伊勢若松、若松です。"/>
+                <parts path="../sounds/JP鈴鹿市、平田町方面はお乗り換えです.wav" langage="JP" PartsText="鈴鹿市、平田町方面はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JP伊勢若松の次は塩浜に停まります.wav" langage="JP" PartsText="伊勢若松の次は塩浜に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="千代崎" pass="true"/>
+        <station name="伊勢若松">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP伊勢若松、若松です.wav" langage="JP" PartsText="伊勢若松、若松です。"/>
+                <parts path="../sounds/JP鈴鹿市、平田町方面はお乗り換えです.wav" langage="JP" PartsText="鈴鹿市、平田町方面はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JP伊勢若松の次は塩浜に停まります.wav" langage="JP" PartsText="伊勢若松の次は塩浜に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は塩浜、塩浜です.wav" langage="JP" PartsText="次は塩浜、塩浜です。"/>
+                <parts path="../sounds/JP塩浜の次は四日市に停まります.wav" langage="JP" PartsText="塩浜の次は四日市に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="箕田" pass="true"/>
+        <station name="長太ノ浦" pass="true"/>
+        <station name="楠" pass="true"/>
+        <station name="北楠" pass="true"/>
+        <station name="塩浜">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP塩浜、塩浜です.wav" langage="JP" PartsText="塩浜、塩浜です。"/>
+                <parts path="../sounds/JP塩浜の次は四日市に停まります.wav" langage="JP" PartsText="塩浜の次は四日市に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は四日市、四日市です.wav" langage="JP" PartsText="次は四日市、四日市です。"/>
+                <parts path="../sounds/JP湯の山温泉方面と、四日市あすなろう鉄道線はお乗り換えです.wav" langage="JP" PartsText="湯の山温泉方面と、四日市あすなろう鉄道線はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JP四日市の次は富田に停まります.wav" langage="JP" PartsText="四日市の次は富田に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="海山道" pass="true"/>
+        <station name="新正" pass="true"/>
+        <station name="四日市">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JPご乗車ありがとうございました.wav" langage="JP" PartsText="ご乗車ありがとうございました。"/>
+                <parts path="../sounds/JP四日市、四日市です.wav" langage="JP" PartsText="四日市、四日市です。"/>
+                <parts path="../sounds/JP湯の山温泉方面と、四日市あすなろう鉄道線はお乗り換えです.wav" langage="JP" PartsText="湯の山温泉方面と、四日市あすなろう鉄道線はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JP四日市の次は富田に停まります.wav" langage="JP" PartsText="四日市の次は富田に停まります。"/>
+                <parts path="../sounds/JP近鉄をご利用いただきありがとうございました.wav" langage="JP" PartsText="近鉄をご利用いただきありがとうございました。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JPこの電車は名古屋行き急行です.wav" langage="JP" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/JP途中、富田、桑名、弥富、蟹江に停まります.wav" langage="JP" PartsText="途中、富田、桑名、弥富、蟹江に停まります。"/>
+                <parts path="../sounds/JP次は富田、富田です.wav" langage="JP" PartsText="次は富田、富田です。"/>
+                <parts path="../sounds/JP三岐鉄道線はお乗り換えです.wav" langage="JP" PartsText="三岐鉄道線はお乗り換えです。"/>
+                <parts path="../sounds/JP富田の次は桑名に停まります.wav" langage="JP" PartsText="富田の次は桑名に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="川原町" pass="true"/>
+        <station name="阿倉川" pass="true"/>
+        <station name="霞ヶ浦" pass="true"/>
+        <station name="富田">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP富田、富田です.wav" langage="JP" PartsText="富田、富田です。"/>
+                <parts path="../sounds/JP三岐鉄道線はお乗り換えです.wav" langage="JP" PartsText="三岐鉄道線はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JP左側の扉が開きます。ご注意ください.wav" langage="JP" PartsText="左側の扉が開きます。ご注意ください。"/>
+                <parts path="../sounds/JP富田の次は桑名に停まります.wav" langage="JP" PartsText="富田の次は桑名に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は桑名、桑名です.wav" langage="JP" PartsText="次は桑名、桑名です。"/>
+                <parts path="../sounds/JP養老鉄道線と、三岐鉄道北勢線はお乗り換えです.wav" langage="JP" PartsText="養老鉄道線と、三岐鉄道北勢線はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JP桑名の次は弥富に停まります.wav" langage="JP" PartsText="桑名の次は弥富に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="川越富洲原" pass="true"/>
+        <station name="伊勢朝日" pass="true"/>
+        <station name="益生" pass="true"/>
+        <station name="桑名">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP桑名、桑名です.wav" langage="JP" PartsText="桑名、桑名です。"/>
+                <parts path="../sounds/JP養老鉄道線と、三岐鉄道北勢線はお乗り換えです.wav" langage="JP" PartsText="養老鉄道線と、三岐鉄道北勢線はお乗り換えです。"/>
+                <parts path="../sounds/JP桑名の次は弥富に停まります.wav" langage="JP" PartsText="桑名の次は弥富に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は弥富、弥富です.wav" langage="JP" PartsText="次は弥富、弥富です。"/>
+                <parts path="../sounds/JP弥富の次は蟹江に停まります.wav" langage="JP" PartsText="弥富の次は蟹江に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="長島" pass="true"/>
+        <station name="弥富">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP弥富、弥富です.wav" langage="JP" PartsText="弥富、弥富です。"/>
+                <parts path="../sounds/JP弥富の次は蟹江に停まります.wav" langage="JP" PartsText="弥富の次は蟹江に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は蟹江、蟹江です.wav" langage="JP" PartsText="次は蟹江、蟹江です。"/>
+                <parts path="../sounds/JP蟹江の次は名古屋です.wav" langage="JP" PartsText="蟹江の次は名古屋です。"/>
+            </partsgroup>
+        </station>
+        <station name="佐古木" pass="true"/>
+        <station name="冨吉" pass="true"/>
+        <station name="蟹江">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP蟹江、蟹江です.wav" langage="JP" PartsText="蟹江、蟹江です。"/>
+                <parts path="../sounds/JP蟹江の次は名古屋です.wav" langage="JP" PartsText="蟹江の次は名古屋です。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は名古屋、名古屋です.wav" langage="JP" PartsText="次は名古屋、名古屋です。"/>
+                <parts path="../sounds/JPこの電車は次までです.wav" langage="JP" PartsText="この電車は次までです。"/>
+                <parts path="../sounds/JP名鉄線、地下鉄線、JR線、あおなみ線はお乗り換えです.wav" langage="JP" PartsText="名鉄線、地下鉄線、JR線、あおなみ線はお乗り換えです。" changefor="true"/>
+            </partsgroup>
+        </station>
+        <station name="戸田" pass="true"/>
+        <station name="伏屋" pass="true"/>
+        <station name="八田" pass="true"/>
+        <station name="烏森" pass="true"/>
+        <station name="黄金" pass="true"/>
+        <station name="米野" pass="true"/>
+        <station name="名古屋">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JPご乗車ありがとうございました.wav" langage="JP" PartsText="ご乗車ありがとうございました。"/>
+                <parts path="../sounds/JP名古屋、名古屋、終点です.wav" langage="JP" PartsText="名古屋、名古屋、終点です。"/>
+                <parts path="../sounds/JP名鉄線、地下鉄線、JR線、あおなみ線はお乗り換えです.wav" langage="JP" PartsText="名鉄線、地下鉄線、JR線、あおなみ線はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JPお忘れ物のないようご注意ください.wav" langage="JP" PartsText="お忘れ物のないようご注意ください。"/>
+                <parts path="../sounds/JP近鉄をご利用いただきありがとうございました.wav" langage="JP" PartsText="近鉄をご利用いただきありがとうございました。"/>
+            </partsgroup>
+        </station>
+    </mainanounce>
+    <mainanounce id="E2004" area="五十鈴川 塩浜 富吉 白塚" type="各停" direction="上り" group="A" title="各停　松阪発　名古屋行3" trainnumber="536 636 3636">
+        <station name="松阪">
+            <partsgroup state="stopping">
+                <parts path="../sounds/JP近鉄をご利用いただきありがとうございます.wav" langage="JP" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/JPこの電車は名古屋行き急行です.wav" langage="JP" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/JP途中、伊勢中川、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります.wav" langage="JP" PartsText="途中、伊勢中川、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります。"/>
+                <parts path="../sounds/JP発車までしばらくお待ちください.wav" langage="JP" PartsText="発車までしばらくお待ちください。"/>
+                <parts path="../sounds/EN近鉄をご利用いただきありがとうございます.wav" langage="EN" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/ENこの電車は名古屋行き急行です.wav" langage="EN" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/EN途中、伊勢中川、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります.wav" langage="EN" PartsText="途中、伊勢中川、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります。"/>
+                <parts path="../sounds/CH近鉄をご利用いただきありがとうございます.wav" langage="CH" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/CHこの電車は名古屋行き急行です.wav" langage="CH" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/KR近鉄をご利用いただきありがとうございます.wav" langage="KR" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/KRこの電車は名古屋行き急行です.wav" langage="KR" PartsText="この電車は名古屋行き急行です。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JPお待たせしました.wav" langage="JP" PartsText="お待たせしました。"/>
+                <parts path="../sounds/JP近鉄をご利用いただきありがとうございます.wav" langage="JP" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/JPこの電車は名古屋行き急行です.wav" langage="JP" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/JP途中、伊勢中川、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります.wav" langage="JP" PartsText="途中、伊勢中川、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります。"/>
+                <parts path="../sounds/JP次は伊勢中川、中川です.wav" langage="JP" PartsText="次は伊勢中川、中川です。"/>
+                <parts path="../sounds/JP大阪、奈良、京都方面はお乗り換えです.wav" langage="JP" PartsText="大阪、奈良、京都方面はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JP伊勢中川の次は久居に停まります.wav" langage="JP" PartsText="伊勢中川の次は久居に停まります。"/>
+                <parts path="../sounds/EN近鉄をご利用いただきありがとうございます.wav" langage="EN" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/ENこの電車は名古屋行き急行です.wav" langage="EN" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/EN途中、伊勢中川、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります.wav" langage="EN" PartsText="途中、伊勢中川、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります。"/>
+                <parts path="../sounds/EN次は伊勢中川、中川です.wav" langage="EN" PartsText="次は伊勢中川、中川です。"/>
+                <parts path="../sounds/EN駅ナンバリングM-61伊勢中川(山田線).wav" langage="EN" PartsText="駅ナンバー　M-61伊勢中川（山田線）"/>
+                <parts path="../sounds/EN大阪、奈良、京都方面はお乗り換えです.wav" langage="EN" PartsText="大阪、奈良、京都方面はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/EN伊勢中川の次は久居に停まります.wav" langage="EN" PartsText="伊勢中川の次は久居に停まります。"/>
+                <parts path="../sounds/CH近鉄をご利用いただきありがとうございます.wav" langage="CH" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/CHこの電車は名古屋行き急行です.wav" langage="CH" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/CH次は伊勢中川、中川です.wav" langage="CH" PartsText="次は伊勢中川、中川です。"/>
+                <parts path="../sounds/CH大阪、奈良、京都方面はお乗り換えです.wav" langage="CH" PartsText="大阪、奈良、京都方面はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/KR近鉄をご利用いただきありがとうございます.wav" langage="KR" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/KRこの電車は名古屋行き急行です.wav" langage="KR" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/KR次は伊勢中川、中川です.wav" langage="KR" PartsText="次は伊勢中川、中川です。"/>
+                <parts path="../sounds/KR大阪、奈良、京都方面はお乗り換えです.wav" langage="KR" PartsText="大阪、奈良、京都方面はお乗り換えです。" changefor="true"/>
+            </partsgroup>
+        </station>
+        <station name="松ヶ崎" pass="true"/>
+        <station name="伊勢中原" pass="true"/>
+        <station name="伊勢中川">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JPご乗車ありがとうございました.wav" langage="JP" PartsText="ご乗車ありがとうございました。"/>
+                <parts path="../sounds/JP伊勢中川、中川です.wav" langage="JP" PartsText="伊勢中川、中川です。"/>
+                <parts path="../sounds/JP大阪、奈良、京都方面はお乗り換えです.wav" langage="JP" PartsText="大阪、奈良、京都方面はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JP伊勢中川の次は久居に停まります.wav" langage="JP" PartsText="伊勢中川の次は久居に停まります。"/>
+                <parts path="../sounds/JP近鉄をご利用いただきありがとうございました.wav" langage="JP" PartsText="近鉄をご利用いただきありがとうございました。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JPお待たせしました.wav" langage="JP" PartsText="お待たせしました。"/>
+                <parts path="../sounds/JP近鉄をご利用いただきありがとうございます.wav" langage="JP" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/JPこの電車は名古屋行き急行です.wav" langage="JP" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/JP途中、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります.wav" langage="JP" PartsText="途中、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります。"/>
+                <parts path="../sounds/JP次は久居、久居です.wav" langage="JP" PartsText="次は久居、久居です。"/>
+                <parts path="../sounds/JP久居の次は津新町に停まります.wav" langage="JP" PartsText="久居の次は津新町に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="桃園" pass="true"/>
+        <station name="久居">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP久居、久居です.wav" langage="JP" PartsText="久居、久居です。"/>
+                <parts path="../sounds/JP左側の扉が開きます。ご注意ください.wav" langage="JP" PartsText="左側の扉が開きます。ご注意ください。"/>
+                <parts path="../sounds/JP久居の次は津新町に停まります.wav" langage="JP" PartsText="久居の次は津新町に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は津新町、津新町です.wav" langage="JP" PartsText="次は津新町、津新町です。"/>
+                <parts path="../sounds/JP津新町の次は津に停まります.wav" langage="JP" PartsText="津新町の次は津に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="南が丘" pass="true"/>
+        <station name="津新町">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP津新町、津新町です.wav" langage="JP" PartsText="津新町、津新町です。"/>
+                <parts path="../sounds/JP右側の扉が開きます。ご注意ください.wav" langage="JP" PartsText="右側の扉が開きます。ご注意ください。"/>
+                <parts path="../sounds/JP津新町の次は津に停まります.wav" langage="JP" PartsText="津新町の次は津に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は津、津です.wav" langage="JP" PartsText="次は津、津です。"/>
+                <parts path="../sounds/JP津の次は江戸橋に停まります.wav" langage="JP" PartsText="津の次は江戸橋に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="津">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP津、津です.wav" langage="JP" PartsText="津、津です。"/>
+                <parts path="../sounds/JP右側の扉が開きます。ご注意ください.wav" langage="JP" PartsText="右側の扉が開きます。ご注意ください。"/>
+                <parts path="../sounds/JP津の次は江戸橋に停まります.wav" langage="JP" PartsText="津の次は江戸橋に停まります。"/>
+                <parts path="../sounds/JP近鉄をご利用いただきありがとうございました.wav" langage="JP" PartsText="近鉄をご利用いただきありがとうございました。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は江戸橋、江戸橋です.wav" langage="JP" PartsText="次は江戸橋、江戸橋です。"/>
+                <parts path="../sounds/JP江戸橋の次は白子に停まります.wav" langage="JP" PartsText="江戸橋の次は白子に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="江戸橋">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP江戸橋、江戸橋です.wav" langage="JP" PartsText="江戸橋、江戸橋です。"/>
+                <parts path="../sounds/JP江戸橋の次は白子に停まります.wav" langage="JP" PartsText="江戸橋の次は白子に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は白子、白子です.wav" langage="JP" PartsText="次は白子、白子です。"/>
+                <parts path="../sounds/JP白子の次は伊勢若松に停まります.wav" langage="JP" PartsText="白子の次は伊勢若松に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="高田本山" pass="true"/>
+        <station name="白塚" pass="true"/>
+        <station name="豊津上野" pass="true"/>
+        <station name="千里" pass="true"/>
+        <station name="磯山" pass="true"/>
+        <station name="鼓ヶ浦" pass="true"/>
+        <station name="白子">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP白子、白子です.wav" langage="JP" PartsText="白子、白子です。"/>
+                <parts path="../sounds/JP白子の次は伊勢若松に停まります.wav" langage="JP" PartsText="白子の次は伊勢若松に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は伊勢若松、若松です.wav" langage="JP" PartsText="次は伊勢若松、若松です。"/>
+                <parts path="../sounds/JP鈴鹿市、平田町方面はお乗り換えです.wav" langage="JP" PartsText="鈴鹿市、平田町方面はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JP伊勢若松の次は塩浜に停まります.wav" langage="JP" PartsText="伊勢若松の次は塩浜に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="千代崎" pass="true"/>
+        <station name="伊勢若松">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP伊勢若松、若松です.wav" langage="JP" PartsText="伊勢若松、若松です。"/>
+                <parts path="../sounds/JP鈴鹿市、平田町方面はお乗り換えです.wav" langage="JP" PartsText="鈴鹿市、平田町方面はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JP伊勢若松の次は塩浜に停まります.wav" langage="JP" PartsText="伊勢若松の次は塩浜に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は塩浜、塩浜です.wav" langage="JP" PartsText="次は塩浜、塩浜です。"/>
+                <parts path="../sounds/JP塩浜の次は四日市に停まります.wav" langage="JP" PartsText="塩浜の次は四日市に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="箕田" pass="true"/>
+        <station name="長太ノ浦" pass="true"/>
+        <station name="楠" pass="true"/>
+        <station name="北楠" pass="true"/>
+        <station name="塩浜">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP塩浜、塩浜です.wav" langage="JP" PartsText="塩浜、塩浜です。"/>
+                <parts path="../sounds/JP塩浜の次は四日市に停まります.wav" langage="JP" PartsText="塩浜の次は四日市に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は四日市、四日市です.wav" langage="JP" PartsText="次は四日市、四日市です。"/>
+                <parts path="../sounds/JP湯の山温泉方面と、四日市あすなろう鉄道線はお乗り換えです.wav" langage="JP" PartsText="湯の山温泉方面と、四日市あすなろう鉄道線はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JP四日市の次は富田に停まります.wav" langage="JP" PartsText="四日市の次は富田に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="海山道" pass="true"/>
+        <station name="新正" pass="true"/>
+        <station name="四日市">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JPご乗車ありがとうございました.wav" langage="JP" PartsText="ご乗車ありがとうございました。"/>
+                <parts path="../sounds/JP四日市、四日市です.wav" langage="JP" PartsText="四日市、四日市です。"/>
+                <parts path="../sounds/JP湯の山温泉方面と、四日市あすなろう鉄道線はお乗り換えです.wav" langage="JP" PartsText="湯の山温泉方面と、四日市あすなろう鉄道線はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JP四日市の次は富田に停まります.wav" langage="JP" PartsText="四日市の次は富田に停まります。"/>
+                <parts path="../sounds/JP近鉄をご利用いただきありがとうございました.wav" langage="JP" PartsText="近鉄をご利用いただきありがとうございました。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JPこの電車は名古屋行き急行です.wav" langage="JP" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/JP途中、富田、桑名、弥富、蟹江に停まります.wav" langage="JP" PartsText="途中、富田、桑名、弥富、蟹江に停まります。"/>
+                <parts path="../sounds/JP次は富田、富田です.wav" langage="JP" PartsText="次は富田、富田です。"/>
+                <parts path="../sounds/JP三岐鉄道線はお乗り換えです.wav" langage="JP" PartsText="三岐鉄道線はお乗り換えです。"/>
+                <parts path="../sounds/JP富田の次は桑名に停まります.wav" langage="JP" PartsText="富田の次は桑名に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="川原町" pass="true"/>
+        <station name="阿倉川" pass="true"/>
+        <station name="霞ヶ浦" pass="true"/>
+        <station name="富田">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP富田、富田です.wav" langage="JP" PartsText="富田、富田です。"/>
+                <parts path="../sounds/JP三岐鉄道線はお乗り換えです.wav" langage="JP" PartsText="三岐鉄道線はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JP左側の扉が開きます。ご注意ください.wav" langage="JP" PartsText="左側の扉が開きます。ご注意ください。"/>
+                <parts path="../sounds/JP富田の次は桑名に停まります.wav" langage="JP" PartsText="富田の次は桑名に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は桑名、桑名です.wav" langage="JP" PartsText="次は桑名、桑名です。"/>
+                <parts path="../sounds/JP養老鉄道線と、三岐鉄道北勢線はお乗り換えです.wav" langage="JP" PartsText="養老鉄道線と、三岐鉄道北勢線はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JP桑名の次は弥富に停まります.wav" langage="JP" PartsText="桑名の次は弥富に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="川越富洲原" pass="true"/>
+        <station name="伊勢朝日" pass="true"/>
+        <station name="益生" pass="true"/>
+        <station name="桑名">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP桑名、桑名です.wav" langage="JP" PartsText="桑名、桑名です。"/>
+                <parts path="../sounds/JP養老鉄道線と、三岐鉄道北勢線はお乗り換えです.wav" langage="JP" PartsText="養老鉄道線と、三岐鉄道北勢線はお乗り換えです。"/>
+                <parts path="../sounds/JP桑名の次は弥富に停まります.wav" langage="JP" PartsText="桑名の次は弥富に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は弥富、弥富です.wav" langage="JP" PartsText="次は弥富、弥富です。"/>
+                <parts path="../sounds/JP弥富の次は蟹江に停まります.wav" langage="JP" PartsText="弥富の次は蟹江に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="長島" pass="true"/>
+        <station name="弥富">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP弥富、弥富です.wav" langage="JP" PartsText="弥富、弥富です。"/>
+                <parts path="../sounds/JP弥富の次は蟹江に停まります.wav" langage="JP" PartsText="弥富の次は蟹江に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は蟹江、蟹江です.wav" langage="JP" PartsText="次は蟹江、蟹江です。"/>
+                <parts path="../sounds/JP蟹江の次は名古屋です.wav" langage="JP" PartsText="蟹江の次は名古屋です。"/>
+            </partsgroup>
+        </station>
+        <station name="佐古木" pass="true"/>
+        <station name="冨吉" pass="true"/>
+        <station name="蟹江">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP蟹江、蟹江です.wav" langage="JP" PartsText="蟹江、蟹江です。"/>
+                <parts path="../sounds/JP蟹江の次は名古屋です.wav" langage="JP" PartsText="蟹江の次は名古屋です。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は名古屋、名古屋です.wav" langage="JP" PartsText="次は名古屋、名古屋です。"/>
+                <parts path="../sounds/JPこの電車は次までです.wav" langage="JP" PartsText="この電車は次までです。"/>
+                <parts path="../sounds/JP名鉄線、地下鉄線、JR線、あおなみ線はお乗り換えです.wav" langage="JP" PartsText="名鉄線、地下鉄線、JR線、あおなみ線はお乗り換えです。" changefor="true"/>
+            </partsgroup>
+        </station>
+        <station name="戸田" pass="true"/>
+        <station name="伏屋" pass="true"/>
+        <station name="八田" pass="true"/>
+        <station name="烏森" pass="true"/>
+        <station name="黄金" pass="true"/>
+        <station name="米野" pass="true"/>
+        <station name="名古屋">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JPご乗車ありがとうございました.wav" langage="JP" PartsText="ご乗車ありがとうございました。"/>
+                <parts path="../sounds/JP名古屋、名古屋、終点です.wav" langage="JP" PartsText="名古屋、名古屋、終点です。"/>
+                <parts path="../sounds/JP名鉄線、地下鉄線、JR線、あおなみ線はお乗り換えです.wav" langage="JP" PartsText="名鉄線、地下鉄線、JR線、あおなみ線はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JPお忘れ物のないようご注意ください.wav" langage="JP" PartsText="お忘れ物のないようご注意ください。"/>
+                <parts path="../sounds/JP近鉄をご利用いただきありがとうございました.wav" langage="JP" PartsText="近鉄をご利用いただきありがとうございました。"/>
+            </partsgroup>
+        </station>
+    </mainanounce>
+    <mainanounce id="E2005" area="五十鈴川 塩浜 富吉 白塚" type="急行" direction="下り" group="A" title="急行　松阪発　名古屋行4" trainnumber="536 636 3636">
+        <station name="松阪">
+            <partsgroup state="stopping">
+                <parts path="../sounds/JP近鉄をご利用いただきありがとうございます.wav" langage="JP" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/JPこの電車は名古屋行き急行です.wav" langage="JP" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/JP途中、伊勢中川、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります.wav" langage="JP" PartsText="途中、伊勢中川、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります。"/>
+                <parts path="../sounds/JP発車までしばらくお待ちください.wav" langage="JP" PartsText="発車までしばらくお待ちください。"/>
+                <parts path="../sounds/EN近鉄をご利用いただきありがとうございます.wav" langage="EN" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/ENこの電車は名古屋行き急行です.wav" langage="EN" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/EN途中、伊勢中川、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります.wav" langage="EN" PartsText="途中、伊勢中川、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります。"/>
+                <parts path="../sounds/CH近鉄をご利用いただきありがとうございます.wav" langage="CH" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/CHこの電車は名古屋行き急行です.wav" langage="CH" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/KR近鉄をご利用いただきありがとうございます.wav" langage="KR" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/KRこの電車は名古屋行き急行です.wav" langage="KR" PartsText="この電車は名古屋行き急行です。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JPお待たせしました.wav" langage="JP" PartsText="お待たせしました。"/>
+                <parts path="../sounds/JP近鉄をご利用いただきありがとうございます.wav" langage="JP" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/JPこの電車は名古屋行き急行です.wav" langage="JP" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/JP途中、伊勢中川、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります.wav" langage="JP" PartsText="途中、伊勢中川、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります。"/>
+                <parts path="../sounds/JP次は伊勢中川、中川です.wav" langage="JP" PartsText="次は伊勢中川、中川です。"/>
+                <parts path="../sounds/JP大阪、奈良、京都方面はお乗り換えです.wav" langage="JP" PartsText="大阪、奈良、京都方面はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JP伊勢中川の次は久居に停まります.wav" langage="JP" PartsText="伊勢中川の次は久居に停まります。"/>
+                <parts path="../sounds/EN近鉄をご利用いただきありがとうございます.wav" langage="EN" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/ENこの電車は名古屋行き急行です.wav" langage="EN" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/EN途中、伊勢中川、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります.wav" langage="EN" PartsText="途中、伊勢中川、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります。"/>
+                <parts path="../sounds/EN次は伊勢中川、中川です.wav" langage="EN" PartsText="次は伊勢中川、中川です。"/>
+                <parts path="../sounds/EN駅ナンバリングM-61伊勢中川(山田線).wav" langage="EN" PartsText="駅ナンバー　M-61伊勢中川（山田線）"/>
+                <parts path="../sounds/EN大阪、奈良、京都方面はお乗り換えです.wav" langage="EN" PartsText="大阪、奈良、京都方面はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/EN伊勢中川の次は久居に停まります.wav" langage="EN" PartsText="伊勢中川の次は久居に停まります。"/>
+                <parts path="../sounds/CH近鉄をご利用いただきありがとうございます.wav" langage="CH" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/CHこの電車は名古屋行き急行です.wav" langage="CH" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/CH次は伊勢中川、中川です.wav" langage="CH" PartsText="次は伊勢中川、中川です。"/>
+                <parts path="../sounds/CH大阪、奈良、京都方面はお乗り換えです.wav" langage="CH" PartsText="大阪、奈良、京都方面はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/KR近鉄をご利用いただきありがとうございます.wav" langage="KR" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/KRこの電車は名古屋行き急行です.wav" langage="KR" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/KR次は伊勢中川、中川です.wav" langage="KR" PartsText="次は伊勢中川、中川です。"/>
+                <parts path="../sounds/KR大阪、奈良、京都方面はお乗り換えです.wav" langage="KR" PartsText="大阪、奈良、京都方面はお乗り換えです。" changefor="true"/>
+            </partsgroup>
+        </station>
+        <station name="松ヶ崎" pass="true"/>
+        <station name="伊勢中原" pass="true"/>
+        <station name="伊勢中川">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JPご乗車ありがとうございました.wav" langage="JP" PartsText="ご乗車ありがとうございました。"/>
+                <parts path="../sounds/JP伊勢中川、中川です.wav" langage="JP" PartsText="伊勢中川、中川です。"/>
+                <parts path="../sounds/JP大阪、奈良、京都方面はお乗り換えです.wav" langage="JP" PartsText="大阪、奈良、京都方面はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JP伊勢中川の次は久居に停まります.wav" langage="JP" PartsText="伊勢中川の次は久居に停まります。"/>
+                <parts path="../sounds/JP近鉄をご利用いただきありがとうございました.wav" langage="JP" PartsText="近鉄をご利用いただきありがとうございました。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JPお待たせしました.wav" langage="JP" PartsText="お待たせしました。"/>
+                <parts path="../sounds/JP近鉄をご利用いただきありがとうございます.wav" langage="JP" PartsText="近鉄をご利用いただきありがとうございます。"/>
+                <parts path="../sounds/JPこの電車は名古屋行き急行です.wav" langage="JP" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/JP途中、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります.wav" langage="JP" PartsText="途中、久居、津新町、津、江戸橋、白子、伊勢若松、塩浜、富田、桑名、弥冨、蟹江に停まります。"/>
+                <parts path="../sounds/JP次は久居、久居です.wav" langage="JP" PartsText="次は久居、久居です。"/>
+                <parts path="../sounds/JP久居の次は津新町に停まります.wav" langage="JP" PartsText="久居の次は津新町に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="桃園" pass="true"/>
+        <station name="久居">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP久居、久居です.wav" langage="JP" PartsText="久居、久居です。"/>
+                <parts path="../sounds/JP左側の扉が開きます。ご注意ください.wav" langage="JP" PartsText="左側の扉が開きます。ご注意ください。"/>
+                <parts path="../sounds/JP久居の次は津新町に停まります.wav" langage="JP" PartsText="久居の次は津新町に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は津新町、津新町です.wav" langage="JP" PartsText="次は津新町、津新町です。"/>
+                <parts path="../sounds/JP津新町の次は津に停まります.wav" langage="JP" PartsText="津新町の次は津に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="南が丘" pass="true"/>
+        <station name="津新町">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP津新町、津新町です.wav" langage="JP" PartsText="津新町、津新町です。"/>
+                <parts path="../sounds/JP右側の扉が開きます。ご注意ください.wav" langage="JP" PartsText="右側の扉が開きます。ご注意ください。"/>
+                <parts path="../sounds/JP津新町の次は津に停まります.wav" langage="JP" PartsText="津新町の次は津に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は津、津です.wav" langage="JP" PartsText="次は津、津です。"/>
+                <parts path="../sounds/JP津の次は江戸橋に停まります.wav" langage="JP" PartsText="津の次は江戸橋に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="津">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP津、津です.wav" langage="JP" PartsText="津、津です。"/>
+                <parts path="../sounds/JP右側の扉が開きます。ご注意ください.wav" langage="JP" PartsText="右側の扉が開きます。ご注意ください。"/>
+                <parts path="../sounds/JP津の次は江戸橋に停まります.wav" langage="JP" PartsText="津の次は江戸橋に停まります。"/>
+                <parts path="../sounds/JP近鉄をご利用いただきありがとうございました.wav" langage="JP" PartsText="近鉄をご利用いただきありがとうございました。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は江戸橋、江戸橋です.wav" langage="JP" PartsText="次は江戸橋、江戸橋です。"/>
+                <parts path="../sounds/JP江戸橋の次は白子に停まります.wav" langage="JP" PartsText="江戸橋の次は白子に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="江戸橋">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP江戸橋、江戸橋です.wav" langage="JP" PartsText="江戸橋、江戸橋です。"/>
+                <parts path="../sounds/JP江戸橋の次は白子に停まります.wav" langage="JP" PartsText="江戸橋の次は白子に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は白子、白子です.wav" langage="JP" PartsText="次は白子、白子です。"/>
+                <parts path="../sounds/JP白子の次は伊勢若松に停まります.wav" langage="JP" PartsText="白子の次は伊勢若松に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="高田本山" pass="true"/>
+        <station name="白塚" pass="true"/>
+        <station name="豊津上野" pass="true"/>
+        <station name="千里" pass="true"/>
+        <station name="磯山" pass="true"/>
+        <station name="鼓ヶ浦" pass="true"/>
+        <station name="白子">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP白子、白子です.wav" langage="JP" PartsText="白子、白子です。"/>
+                <parts path="../sounds/JP白子の次は伊勢若松に停まります.wav" langage="JP" PartsText="白子の次は伊勢若松に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は伊勢若松、若松です.wav" langage="JP" PartsText="次は伊勢若松、若松です。"/>
+                <parts path="../sounds/JP鈴鹿市、平田町方面はお乗り換えです.wav" langage="JP" PartsText="鈴鹿市、平田町方面はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JP伊勢若松の次は塩浜に停まります.wav" langage="JP" PartsText="伊勢若松の次は塩浜に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="千代崎" pass="true"/>
+        <station name="伊勢若松">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP伊勢若松、若松です.wav" langage="JP" PartsText="伊勢若松、若松です。"/>
+                <parts path="../sounds/JP鈴鹿市、平田町方面はお乗り換えです.wav" langage="JP" PartsText="鈴鹿市、平田町方面はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JP伊勢若松の次は塩浜に停まります.wav" langage="JP" PartsText="伊勢若松の次は塩浜に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は塩浜、塩浜です.wav" langage="JP" PartsText="次は塩浜、塩浜です。"/>
+                <parts path="../sounds/JP塩浜の次は四日市に停まります.wav" langage="JP" PartsText="塩浜の次は四日市に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="箕田" pass="true"/>
+        <station name="長太ノ浦" pass="true"/>
+        <station name="楠" pass="true"/>
+        <station name="北楠" pass="true"/>
+        <station name="塩浜">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP塩浜、塩浜です.wav" langage="JP" PartsText="塩浜、塩浜です。"/>
+                <parts path="../sounds/JP塩浜の次は四日市に停まります.wav" langage="JP" PartsText="塩浜の次は四日市に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は四日市、四日市です.wav" langage="JP" PartsText="次は四日市、四日市です。"/>
+                <parts path="../sounds/JP湯の山温泉方面と、四日市あすなろう鉄道線はお乗り換えです.wav" langage="JP" PartsText="湯の山温泉方面と、四日市あすなろう鉄道線はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JP四日市の次は富田に停まります.wav" langage="JP" PartsText="四日市の次は富田に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="海山道" pass="true"/>
+        <station name="新正" pass="true"/>
+        <station name="四日市">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JPご乗車ありがとうございました.wav" langage="JP" PartsText="ご乗車ありがとうございました。"/>
+                <parts path="../sounds/JP四日市、四日市です.wav" langage="JP" PartsText="四日市、四日市です。"/>
+                <parts path="../sounds/JP湯の山温泉方面と、四日市あすなろう鉄道線はお乗り換えです.wav" langage="JP" PartsText="湯の山温泉方面と、四日市あすなろう鉄道線はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JP四日市の次は富田に停まります.wav" langage="JP" PartsText="四日市の次は富田に停まります。"/>
+                <parts path="../sounds/JP近鉄をご利用いただきありがとうございました.wav" langage="JP" PartsText="近鉄をご利用いただきありがとうございました。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JPこの電車は名古屋行き急行です.wav" langage="JP" PartsText="この電車は名古屋行き急行です。"/>
+                <parts path="../sounds/JP途中、富田、桑名、弥富、蟹江に停まります.wav" langage="JP" PartsText="途中、富田、桑名、弥富、蟹江に停まります。"/>
+                <parts path="../sounds/JP次は富田、富田です.wav" langage="JP" PartsText="次は富田、富田です。"/>
+                <parts path="../sounds/JP三岐鉄道線はお乗り換えです.wav" langage="JP" PartsText="三岐鉄道線はお乗り換えです。"/>
+                <parts path="../sounds/JP富田の次は桑名に停まります.wav" langage="JP" PartsText="富田の次は桑名に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="川原町" pass="true"/>
+        <station name="阿倉川" pass="true"/>
+        <station name="霞ヶ浦" pass="true"/>
+        <station name="富田">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP富田、富田です.wav" langage="JP" PartsText="富田、富田です。"/>
+                <parts path="../sounds/JP三岐鉄道線はお乗り換えです.wav" langage="JP" PartsText="三岐鉄道線はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JP左側の扉が開きます。ご注意ください.wav" langage="JP" PartsText="左側の扉が開きます。ご注意ください。"/>
+                <parts path="../sounds/JP富田の次は桑名に停まります.wav" langage="JP" PartsText="富田の次は桑名に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は桑名、桑名です.wav" langage="JP" PartsText="次は桑名、桑名です。"/>
+                <parts path="../sounds/JP養老鉄道線と、三岐鉄道北勢線はお乗り換えです.wav" langage="JP" PartsText="養老鉄道線と、三岐鉄道北勢線はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JP桑名の次は弥富に停まります.wav" langage="JP" PartsText="桑名の次は弥富に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="川越富洲原" pass="true"/>
+        <station name="伊勢朝日" pass="true"/>
+        <station name="益生" pass="true"/>
+        <station name="桑名">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP桑名、桑名です.wav" langage="JP" PartsText="桑名、桑名です。"/>
+                <parts path="../sounds/JP養老鉄道線と、三岐鉄道北勢線はお乗り換えです.wav" langage="JP" PartsText="養老鉄道線と、三岐鉄道北勢線はお乗り換えです。"/>
+                <parts path="../sounds/JP桑名の次は弥富に停まります.wav" langage="JP" PartsText="桑名の次は弥富に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は弥富、弥富です.wav" langage="JP" PartsText="次は弥富、弥富です。"/>
+                <parts path="../sounds/JP弥富の次は蟹江に停まります.wav" langage="JP" PartsText="弥富の次は蟹江に停まります。"/>
+            </partsgroup>
+        </station>
+        <station name="長島" pass="true"/>
+        <station name="弥富">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP弥富、弥富です.wav" langage="JP" PartsText="弥富、弥富です。"/>
+                <parts path="../sounds/JP弥富の次は蟹江に停まります.wav" langage="JP" PartsText="弥富の次は蟹江に停まります。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は蟹江、蟹江です.wav" langage="JP" PartsText="次は蟹江、蟹江です。"/>
+                <parts path="../sounds/JP蟹江の次は名古屋です.wav" langage="JP" PartsText="蟹江の次は名古屋です。"/>
+            </partsgroup>
+        </station>
+        <station name="佐古木" pass="true"/>
+        <station name="冨吉" pass="true"/>
+        <station name="蟹江">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JP蟹江、蟹江です.wav" langage="JP" PartsText="蟹江、蟹江です。"/>
+                <parts path="../sounds/JP蟹江の次は名古屋です.wav" langage="JP" PartsText="蟹江の次は名古屋です。"/>
+            </partsgroup>
+            <partsgroup state="departure">
+                <parts path="../sounds/JP次は名古屋、名古屋です.wav" langage="JP" PartsText="次は名古屋、名古屋です。"/>
+                <parts path="../sounds/JPこの電車は次までです.wav" langage="JP" PartsText="この電車は次までです。"/>
+                <parts path="../sounds/JP名鉄線、地下鉄線、JR線、あおなみ線はお乗り換えです.wav" langage="JP" PartsText="名鉄線、地下鉄線、JR線、あおなみ線はお乗り換えです。" changefor="true"/>
+            </partsgroup>
+        </station>
+        <station name="戸田" pass="true"/>
+        <station name="伏屋" pass="true"/>
+        <station name="八田" pass="true"/>
+        <station name="烏森" pass="true"/>
+        <station name="黄金" pass="true"/>
+        <station name="米野" pass="true"/>
+        <station name="名古屋">
+            <partsgroup state="arrival">
+                <parts path="../sounds/JPご乗車ありがとうございました.wav" langage="JP" PartsText="ご乗車ありがとうございました。"/>
+                <parts path="../sounds/JP名古屋、名古屋、終点です.wav" langage="JP" PartsText="名古屋、名古屋、終点です。"/>
+                <parts path="../sounds/JP名鉄線、地下鉄線、JR線、あおなみ線はお乗り換えです.wav" langage="JP" PartsText="名鉄線、地下鉄線、JR線、あおなみ線はお乗り換えです。" changefor="true"/>
+                <parts path="../sounds/JPお忘れ物のないようご注意ください.wav" langage="JP" PartsText="お忘れ物のないようご注意ください。"/>
+                <parts path="../sounds/JP近鉄をご利用いただきありがとうございました.wav" langage="JP" PartsText="近鉄をご利用いただきありがとうございました。"/>
+            </partsgroup>
+        </station>
+    </mainanounce>
+    <spotanounce>
+        <partsgroup title="【一般】扉右側開" target="一般専用" group="列車運行に関する案内" point="到着前">
+            <parts path="../sounds/JP右側の扉が開きます。ご注意ください.wav" langage="JP" PartsText="右側の扉が開きます。ご注意ください。"/>
+        </partsgroup>
+        <partsgroup title="【一般】扉左側開" target="一般専用" group="" point="到着前">
+            <parts path="../sounds/JP左側の扉が開きます。ご注意ください.wav" langage="JP" PartsText="左側の扉が開きます。ご注意ください。"/>
+        </partsgroup>
+        <partsgroup title="【特急】扉左側開" target="特急専用" group="" point="到着前">
+            <parts path="../sounds/JP左側の扉が開きます。ご注意ください.wav" langage="JP" PartsText="左側の扉が開きます。ご注意ください。"/>
+        </partsgroup>
+        <partsgroup title="【共通】扉左側開3" target="共通" group="" point="到着前">
+            <parts path="../sounds/JP左側の扉が開きます。ご注意ください.wav" langage="JP" PartsText="左側の扉が開きます。ご注意ください。"/>
+        </partsgroup>
+        <partsgroup title="【一般】携帯電話の使用について" target="一般専用" group="マナー啓発放送" point="到着前">
+            <parts path="../sounds/JPお客様にお願いいたします。携帯電話はマナーモードにしていただき、通話はご遠慮ください。ご協力をお願いします.wav" langage="JP" PartsText="お客様にお願いいたします。携帯電話はマナーモードにしていただき、通話はご遠慮ください。ご協力をお願いします。"/>
+        </partsgroup>
+        
+    </spotanounce>
+    <quickanounce>
+        <partsgroup title="扉が閉まります。" target="一般専用" group="列車運行に関する案内">
+            <parts path="../sounds/JP扉が閉まります.wav" langage="JP" PartsText="扉が閉まります。"/>
+        </partsgroup>
+        <partsgroup title="扉左側「閉」" target="一般専用" group="列車運行に関する案内">
+            <parts path="../sounds/JP扉が閉まります.wav" langage="JP" PartsText="扉が閉まります。"/>
+        </partsgroup>
+        <partsgroup title="扉右側「閉」" target="一般専用" group="列車運行に関する案内">
+            <parts path="../sounds/JP扉が閉まります.wav" langage="JP" PartsText="扉が閉まります。"/>
+        </partsgroup>
+        <partsgroup title="お待たせいたしました" target="一般専用" group="列車運行に関する案内">
+            <parts path="../sounds/JPお待たせしました.wav" langage="JP" PartsText="お待たせしました。"/>
+        </partsgroup>
+    </quickanounce>
+</SoundList>
