@@ -3,7 +3,7 @@
 
 動作にはAtsEx本体と別途配布のToukaitetudouPluginManagerが必要です.
 
-ToukaitetudouPluginManagerは[こちら](https://github.com/TKRwm100/ToukaitetudouPluginManager/raw/refs/heads/main/ToukaitetudouPluginManager/obj/Release/ToukaitetudouPluginManager.dll)をダウンロードしてください.
+ToukaitetudouPluginManagerは[こちら](https://github.com/TKRwm100/ToukaitetudouPluginManager/raw/refs/heads/main/ToukaitetudouPluginManager/obj/Release/ToukaitetudouPluginManager.dll)をダウンロードしてください.(直リンク注意)
 
 ATSExについては以下をご覧ください<br>
 [![ATSEx](https://www.okaoka-depot.com/contents/bve/banner_AtsEX.svg)](https://www.okaoka-depot.com/AtsEX/)
